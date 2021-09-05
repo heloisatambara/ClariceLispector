@@ -1,0 +1,106 @@
+<!doctype.html>
+<html>
+ <head>
+<title> Love </title>
+<link rel="stylesheet" type="text/CSS" href="style.css" media="screen">
+ </head>
+
+ <body>
+
+  <h1 id="title"> Estarei mentindo dizendo que </h1>
+
+   <h2> Não te amo mais. </h2>
+
+    <h5> Clarice Lispector </h5>
+
+     <img class="pen" src="pen1.jpg">
+     <img class="cla" src="cla.jpg">
+     
+
+
+        <div>
+<p id="1" onmouseover="myFunction1()">Não te amo mais.</p>
+<br>
+<p id="2" onmouseover="myFunction2()">Estarei mentindo dizendo que</p>
+<br>
+<p id="3" onmouseover="myFunction3()">Ainda te quero como sempre quis.</p>
+<br>
+<p id="4" onmouseover="myFunction4()">Tenho certeza que</p>
+<br>
+<p id="5" onmouseover="myFunction5()">Nada foi em vão.</p>
+<br>
+<p id="6" onmouseover="myFunction6()">Sinto dentro de mim que</p>
+<br>
+<p id="7" onmouseover="myFunction7()">Você não significa nada.</p>
+<br>
+<p>Não poderia dizer jamais que</p>
+<br>
+<p id="9" onmouseover="myFunction9()">Alimento um grande amor.</p>
+<br>
+<p id="10" onmouseover="myFunction10()">Sinto cada vez mais que</p>
+<br>
+<p id="11" onmouseover="myFunction11()">Já te esqueci!</p>
+<br>
+<p id="12" onmouseover="myFunction12()">E jamais usarei a frase:</p>
+<br>
+<p id="13" onmouseover="myFunction13()">EU TE AMO!</p>
+<br>
+<p id="14" onmouseover="myFunction14(), tite()">Sinto, mas tenho que dizer a verdade</p>
+<br>
+<p id="15" onmouseover="myFunction15()">É tarde demais...</p>
+<br>
+<p class="last"> Releia, passando o mouse por cima dos versos...</p>
+</div>
+  <script>
+
+function tite(){
+document.getElementById("title").style.color = "Black";
+}
+
+var a = "É tarde demais..."
+var b = "Sinto, mas tenho que dizer a verdade"
+var c = "EU TE AMO!"
+var d = "E jamais usarei a frase:"
+var e = "Já te esqueci!"
+var f = "Sinto cada vez mais que"
+var g = "Alimento um grande amor" 
+var h = "Você não significa nada"
+var i = "Sinto dentro de mim que"
+var j = "Nada foi em vão."
+var k = "Tenho certeza que"
+var l = "Ainda te quero como sempre quis"
+var m = "Estarei mentindo dizendo que"
+var n = "Não te amo mais."
+
+function myFunction1(){
+  document.getElementById("1").innerHTML = a;}
+function myFunction2(){
+  document.getElementById("2").innerHTML = b;}
+function myFunction3(){
+  document.getElementById("3").innerHTML = c;}
+function myFunction4(){
+  document.getElementById("4").innerHTML = d;}
+function myFunction5(){
+  document.getElementById("5").innerHTML = e;}
+function myFunction6(){
+  document.getElementById("6").innerHTML = f;}
+function myFunction7(){
+  document.getElementById("7").innerHTML = g;}
+function myFunction9(){
+  document.getElementById("9").innerHTML = h;}
+function myFunction10(){
+  document.getElementById("10").innerHTML = i;}
+function myFunction11(){
+  document.getElementById("11").innerHTML = j;}
+function myFunction12(){
+  document.getElementById("12").innerHTML = k;}
+function myFunction13(){
+  document.getElementById("13").innerHTML = l;}
+function myFunction14(){
+  document.getElementById("14").innerHTML = m;}
+function myFunction15(){
+  document.getElementById("15").innerHTML = n;
+}
+  </script>
+ </body>
+</html>

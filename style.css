@@ -1,0 +1,58 @@
+body{
+background-color: LightSalmon;
+}
+
+h1{
+width: 500px;
+position: relative;
+left: 410px;
+text-align: center;
+color: LightSalmon;
+}
+
+h5{
+text-align: center;}
+
+h2{
+text-align: center;
+}
+
+div{
+position: absolute;
+left: 530px;
+top: 150px
+}
+
+p{
+text-align: center;
+font-family: Gabriola ;
+font-weight: bold;
+font-size: 20px;
+background-color: tomato;
+width: 300px;
+position: relative;
+top:10px;
+}
+
+.pen{
+position: fixed;
+bottom: 70px;
+border-radius: 10px;
+opacity: 0.75;
+left: 50px;
+width:400px;
+height: 500px;
+}
+
+.cla{
+border-radius: 10px;
+position: fixed;
+bottom: 70px;
+right: 50px;
+width: 400px;
+height: 500px;
+opacity: 0.75;
+}
+
+.last{
+background-color: transparent;}
